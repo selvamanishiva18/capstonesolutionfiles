@@ -476,9 +476,8 @@ shipit-capstone/
 3. **Develop**: `npm run dev` starts the Next.js dev server on port 3000
 4. **Test**: `npm test` runs the test suite; `npm run test:coverage` for coverage report
 5. **Lint**: `npm run lint` runs ESLint
-6. **Security**: `npm run security:scan` runs Semgrep
-7. **Build**: `npm run build` creates a production build
-8. **Deploy**: Push to GitHub; CI/CD pipeline handles testing and deployment
+6. **Build**: `npm run build` creates a production build
+7. **Deploy**: Push to GitHub; CI/CD pipeline handles testing and deployment
 
 ---
 
