@@ -516,7 +516,7 @@ The project is considered complete when:
 - [ ] Rate limiting prevents abuse
 - [ ] At least 10 unit tests pass
 - [ ] App can be built for production (`npm run build`)
-- [ ] Docker image builds successfully
+
 
 ---
 
