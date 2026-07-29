@@ -493,10 +493,6 @@ shipit-capstone/
 - Add a PostgreSQL plugin for production database
 - Set environment variables in Railway dashboard
 
-### 14.3 Docker
-- Build: `docker build -t shipit .`
-- Run: `docker run -p 3000:3000 --env-file .env shipit`
-- Or use Docker Compose: `docker compose up`
 
 ---
 
@@ -518,22 +514,9 @@ The project is considered complete when:
 - [ ] URL validation rejects invalid URLs
 - [ ] Custom aliases work and enforce uniqueness
 - [ ] Rate limiting prevents abuse
-- [ ] Code passes Semgrep security scan with no high-severity findings
 - [ ] At least 10 unit tests pass
 - [ ] App can be built for production (`npm run build`)
 - [ ] Docker image builds successfully
 
 ---
 
-## 16. Stretch Goals (Optional)
-
-If time permits, students may add:
-
-- **QR code generation** for each short URL
-- **Link expiration** — URLs that auto-expire after a set date
-- **Password-protected links** — require a password before redirecting
-- **Bulk URL import** — upload a CSV of URLs to shorten
-- **API key authentication** — for programmatic access
-- **Custom domains** — allow users to use their own domain for short links
-- **Link preview** — show Open Graph metadata before redirecting
-- **Dark mode** — toggle between light and dark themes
